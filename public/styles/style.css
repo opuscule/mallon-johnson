@@ -1,0 +1,22 @@
+:root {
+  --dark-bg: #212D3A;
+  --body-copy-color: #707070;
+  --primary-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Cormorant Garamond', serif;
+  --transition-all: all 0.25s ease;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: var(--secondary-font); }
+p, li { font-family: var(--primary-font); }
+
+.home-banner { background-image: url('../images/chicago-1.jpeg'); background-size: cover; background-position: center center; background-color: rgba(0,0,0,0.4); background-blend-mode: darken; }
+.home-banner .logo {}
+.home-banner .hli svg { max-width: 2rem; fill: #FFF; transition: var(--transition-all); }
+	.home-banner .hli svg:hover,
+	.home-banner .hli svg:focus { opacity: 0.8; }
+
+
+#footer { background-color: var(--dark-bg); }
+	#footer h3 { color: #FFF; }
+	#footer p { color: #FFF; }
+.copyright { font-size: 0.875rem; }
