@@ -3,14 +3,14 @@
   --body-copy-color: #707070;
   --primary-cta-color: #7A0000;
   --primary-font: 'Open Sans', sans-serif;
-  --secondary-font: 'Cormorant Garamond', serif;
+  --secondary-font: 'EB Garamond', serif;
   --transition-all: all 0.25s ease;
 }
 .container { max-width: 1240px; }
 h1, h2, h3, h4, h5, h6 { font-family: var(--secondary-font); }
 p, li { font-family: var(--primary-font); }
 
-.home-banner { background-image: url('../images/chicago-1.jpeg'); background-size: cover; background-position: center center; background-color: rgba(0,0,0,0.4); background-blend-mode: darken; }
+.home-banner { background-image: url('../images/chicago-1.jpeg'); background-size: cover; background-position: center center; background-color: rgba(0,0,0,0.6); background-blend-mode: darken; }
 .home-banner .logo { width: 300px; }
 .home-banner .hli svg { max-width: 2rem; fill: #FFF; transition: var(--transition-all); }
 	.home-banner .hli svg:hover,
