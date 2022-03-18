@@ -28,7 +28,10 @@ a { color: var(--primary-cta-color); }
 	.home-banner .hli svg:focus { opacity: 0.8; }
 
 .calloutBorder { border-color: var(--primary-cta-color); border-style:solid; border-width:0 0 0 0.25rem; }
-.content-overlap { margin-top: -5rem; background: white; padding: 4rem; }
+.content-overlap { margin-top: -5rem; background: white; padding-top:4rem; padding-bottom: 4rem; }
+@media (min-width:565px) {
+  .content-overlap { padding-left: 4rem; padding-right: 4rem; }
+}
 .btnos { background-image: url('../images/chicago-2.jpeg'); background-size: cover; background-position: center center; background-blend-mode: darken; background-color: rgba(0,0,0,0.6); }
 .btnos-stat { font-size: 6rem; }
 
