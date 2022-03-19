@@ -20,6 +20,11 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--secondary-font); }
 p, li { font-family: var(--primary-font); }
 a { color: var(--primary-cta-color); }
   a:hover, a:focus { color: var(--secondary-color); }
+  
+.navbar-dark .navbar-nav .nav-link { color: rgba(255,255,255,.85); }
+.btn { border-radius: 5rem; padding: 0.5rem 1.5rem; }
+.btn-outline-primary { color: var(--primary-cta-color); border-color: var(--primary-cta-color); }
+.btn-outline-primary:hover, .btn-outline-primary:focus { background-color: var(--primary-cta-color); border-color: var(--primary-cta-color);  }
 
 .home-banner { background-image: url('../images/chicago-1.jpeg'); background-size: cover; background-position: center center; background-color: rgba(0,0,0,0.6); background-blend-mode: darken; }
 .home-banner .logo { width: 300px; }
@@ -27,8 +32,11 @@ a { color: var(--primary-cta-color); }
 	.home-banner .hli svg:hover,
 	.home-banner .hli svg:focus { opacity: 0.8; }
 
+@media (min-width:768px) {
 .calloutBorder { border-color: var(--primary-cta-color); border-style:solid; border-width:0 0 0 0.25rem; }
+}
 .content-overlap { margin-top: -5rem; background: white; padding-top:4rem; padding-bottom: 4rem; }
+
 @media (min-width:565px) {
   .content-overlap { padding-left: 4rem; padding-right: 4rem; }
 }
@@ -43,4 +51,5 @@ a { color: var(--primary-cta-color); }
 	#footer p { color: #FFF; }
     #footer a { color: #FFF; transition: var(--transition-all); }
       #footer a:hover, #footer a:focus { color: rgba(255,255,255,0.7); }
+.footer-quick-links { list-style-type: none; }
 .copyright { font-size: 0.875rem; }
