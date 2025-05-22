@@ -1,7 +1,5 @@
 /wordpress/ / 301
 /wordpress/about-our-firm/ / 301
-/wordpress/barbaramallon/ /barbara-mallon/ 301
-/barbaramallon/ /barbara-mallon/ 301
 /wordpress/dexter-b-johnson/ /dexter-b-johnson/ 301
 /wordpress/legal-services/ /legal-services/ 301
 /wordpress/legal-services/investment-advisers/ /legal-services/ 301
@@ -33,7 +31,8 @@
 /audit-services/training/ /audit-services/ 301
 /wordpress/whats-new/ / 301
 /whats-new/ / 301
-/wordpress/publications/ / 301 
-/wordpress/presentations/ / 301 
-/wordpress/links/ / 301 
+/wordpress/publications/ / 301
+/wordpress/presentations/ / 301
+/wordpress/links/ / 301
 /wordpress/contact/ /contact/ 301
+/barbara-mallon/ / 301
