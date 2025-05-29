@@ -45,3 +45,4 @@ a { color: var(--primary-cta-color); }
       #footer a:hover, #footer a:focus { color: rgba(255,255,255,0.7); }
 .footer-quick-links { list-style-type: none; }
 .copyright { font-size: 0.875rem; }
+#footer a.btn-footer:hover, #footer a.btn-footer:focus { color: var(--dark-bg); }
